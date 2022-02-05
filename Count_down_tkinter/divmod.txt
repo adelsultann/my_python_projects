@@ -1,0 +1,10 @@
+# divmod(10,3)
+# it's means
+# يعني الثلاثه تقدر تروح ل العشر 3 مرات =9
+# 3 goes to 10 three times and the reminder is 1
+# so the reminder is 1
+#divmod(10,2)  answer is (5,0) 2 goes to 10 five times and the remender is 0
+
+#divmod(5,4)answer is (1,1) 4 goes to 5 one times and the remender is 1
+#divmod(10,16) answer is (0, 10) 16 goes to 10 zero times and the reminder of 10 is 10
+
