@@ -59,35 +59,6 @@ canvas.grid(column=2, row=2)
 apps_label = Label(text="Choose How many minutes to Shutdown", fg=GREEN, bg="white", font=("Ariel", 15, "italic"))
 apps_label.place(x=0, y=20)
 
-# countdown(5)
 
 
 window.mainloop()
-
-#
-# should_count = True
-#
-#
-# while should_count:
-#
-#     # input time in seconds
-#
-#     try:
-#         t = int(input("enter a number "))
-#         seconds = 60 * t
-#         print(seconds)
-#         #
-#         # function call
-#         countdown(int(seconds))
-#     except ValueError:
-#         print("only Numbers are allowed ")
-#     finally:
-#         result = input("do you want to go again 'yes or 'No'").lower()
-#
-#     if result == "no":
-#         should_count == False
-#         print("good bye")
-#
-#
-#
-#
