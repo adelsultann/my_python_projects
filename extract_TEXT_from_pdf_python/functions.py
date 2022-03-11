@@ -105,4 +105,4 @@ def save_all(images):
 def save_image(img):
     if img.mode != "RGB":
         img = img.convert("RGB")
-    img.save("img.png", format="png")
+    img.save("ui details.png", format="png")

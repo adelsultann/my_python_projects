@@ -42,11 +42,12 @@ class TypeSpeedGUI:
                 t = threading.Thread(target=self.time_thread)
                 # this is how to start the threads
                 t.start()
-                # cget is a way to get text from Labble in Tkinter
+                # cget is a way to get text from Label in Tkinter
         if not self.sample_label.cget("text").startswith(self.input_entry.get()):
             self.input_entry.config(fg="red")
         else:
             self.input_entry.config(fg="black")
+
         if self.input_entry.get() == self.sample_label.cget("text"):
             self.running = False
             self.input_entry.config(fg="green")

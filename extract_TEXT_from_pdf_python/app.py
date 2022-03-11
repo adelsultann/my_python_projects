@@ -130,7 +130,7 @@ def open_file():
 
             # BEGIN DISPLAYING
             # display the first image that was detected
-            # -1 represent the last picture (last value of a last )
+            # -1 represent the last picture (last value of a list )
             # in order to track the current image we need to
             selected_image = display_images(images[img_idx[-1]])
             displayed_img.append(selected_image)

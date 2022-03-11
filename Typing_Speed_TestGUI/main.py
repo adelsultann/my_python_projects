@@ -73,8 +73,8 @@ class TypeSpeedGui:
                                  , font=(FONT_NAME, 25))
         self.speed_label.grid(column=0, row=1)
 
-        self.rest_button = Button(self.root, text="Rest", command=self.rest, font=("Helvetica", 18))
-        self.rest_button.grid(row=2, column=0)
+        self.back_button = Button(self.root, text="Back", command=self.back_button, font=("Helvetica", 18))
+        self.back_button.grid(row=2, column=0)
 
         self.change_word = Button(self.root, text="Change Sentence", command=self.change_word, font=("Helvetica", 18))
         self.change_word.grid(row=0, column=0, sticky=SE)
@@ -101,8 +101,8 @@ class TypeSpeedGui:
                                  , font=(FONT_NAME, 25))
         self.speed_label.grid(column=0, row=1)
 
-        self.rest_button = Button(self.root, text="Rest", command=self.rest, font=("Helvetica", 18))
-        self.rest_button.grid(row=2, column=0)
+        self.back_button = Button(self.root, text="Back", command=self.back_button, font=("Helvetica", 18))
+        self.back_button.grid(row=2, column=0)
 
         self.change_word = Button(self.root, text="Change Sentence", command=self.change_word, font=("Helvetica", 18))
         self.change_word.grid(row=0, column=0, sticky=SE)
@@ -129,8 +129,8 @@ class TypeSpeedGui:
                                  , font=(FONT_NAME, 25))
         self.speed_label.grid(column=0, row=1)
 
-        self.rest_button = Button(self.root, text="Rest", command=self.rest, font=("Helvetica", 18))
-        self.rest_button.grid(row=2, column=0)
+        self.back_button = Button(self.root, text="Back", command=self.back_button, font=("Helvetica", 18))
+        self.back_button.grid(row=2, column=0)
 
         self.change_word = Button(self.root, text="Change Sentence", command=self.change_word, font=("Helvetica", 18))
         self.change_word.grid(row=0, column=0, sticky=SE)
@@ -173,7 +173,7 @@ class TypeSpeedGui:
             # 2f means two decimal places
             self.speed_label.config(text=f"SPeed:{wps:.2f} WPS\n{wpm:.2f}WPM")
 
-    def rest(self):
+    def back_button(self):
         self.root.destroy()
         g = TypeSpeedGui()
 
