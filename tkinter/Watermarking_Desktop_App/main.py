@@ -66,8 +66,7 @@ class App(tk.Tk):
     def save_image(self, image):
         # Create a directory for the watermark pictures
         try:
-            path = "C:/Users/Adel/Desktop/DeskTop/Programming/my python project/" \
-                   "Watermarking_Desktop_App/watermarked_pic"
+            path = "/tkinter/Watermarking_Desktop_App/watermarked_pic"
             os.mkdir(path)
             picture_file = ''.join(random.choice(string.ascii_lowercase) for i in range(16))
             image.save(f'./watermarked_pic/{picture_file}.jpg')

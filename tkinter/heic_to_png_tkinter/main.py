@@ -26,7 +26,7 @@ canvas.grid(column=2, row=1)
 def heic_to_png(file):
     counter = random.randint(1, 50)
 
-    path = "./heic_to_png"
+    path = "heic_to_png"
     heif_file = pillow_heif.read_heif(file)
     image = Image.frombytes(
         heif_file.mode,
