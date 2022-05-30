@@ -1,0 +1,15 @@
+{% extends 'main.html' %}
+
+{% block content %}
+
+<div>
+    <form method="post" action="">
+        <!--this token help us with the encryption -->
+        {% csrf_token %}
+         <!--as_p organize the page quick way  -->
+        {{form.as_p }}
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+{% endblock content %}

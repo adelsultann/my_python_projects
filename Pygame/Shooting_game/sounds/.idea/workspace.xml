@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29ad617b-04b6-4bb9-b219-3d99462be6a8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Bouncing_Algorithm/Bouncing_Algorithm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bouncing_Algorithm/Bouncing_Ball_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bouncing_Algorithm/ball.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bouncing_Algorithm/football.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Breakout_Game/ball.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Breakout_Game/brick.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Breakout_Game/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Breakout_Game/paddle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Pygame__Breakout/breakout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Pygame__Breakout/functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Pygame__Breakout/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/crosshair_blue_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/crosshair_blue_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/crosshair_outline_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/crosshair_outline_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/crosshair_red_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/crosshair_red_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/crosshair_white_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/crosshair_white_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/icon_bullet_empty_long.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/icon_bullet_empty_short.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/icon_bullet_gold_long.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/icon_bullet_gold_short.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/icon_bullet_silver_long.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/icon_bullet_silver_short.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/icon_duck.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/icon_target.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_0_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_1_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_2_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_3_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_4_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_5_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_6_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_7_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_8_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_9_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_cross.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_cross_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_dots.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_dots_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_gameover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_go.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_plus_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_ready.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_score.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_score_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/HUD/text_timeup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/duck_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/duck_brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/duck_outline_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/duck_outline_brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/duck_outline_target_brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/duck_outline_target_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/duck_outline_target_yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/duck_outline_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/duck_outline_yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/duck_target_brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/duck_target_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/duck_target_yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/duck_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/duck_yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/rifle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/rifle_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/shot_blue_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/shot_blue_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/shot_brown_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/shot_brown_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/shot_grey_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/shot_grey_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/shot_yellow_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/shot_yellow_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/stick_metal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/stick_metal_broken.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/stick_metal_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/stick_metal_outline_broken.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/stick_wood.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/stick_woodFixed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/stick_woodFixed_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/stick_wood_broken.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/stick_wood_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/stick_wood_outline_broken.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/target_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/target_back_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/target_colored.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/target_colored_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/target_red1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/target_red1_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/target_red2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/target_red2_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/target_red3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/target_red3_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/target_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Objects/target_white_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Stall/bg_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Stall/bg_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Stall/bg_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Stall/bg_wood.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Stall/cloud1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Stall/cloud2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Stall/curtain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Stall/curtain_rope.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Stall/curtain_straight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Stall/curtain_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Stall/grass1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Stall/grass2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Stall/tree_oak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Stall/tree_pine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Stall/water1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PNG/Stall/water2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spritesheets/spritesheet_hud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spritesheets/spritesheet_hud.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spritesheets/spritesheet_objects.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spritesheets/spritesheet_objects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spritesheets/spritesheet_stall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spritesheets/spritesheet_stall.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vector/vector_shootingGallery.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vector/vector_shootingGallery.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/glock19-18535.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Space_invaders/Space-Invaders-Pygame-master/Redemtion.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Space_invaders/Space-Invaders-Pygame-master/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Space_invaders/Space-Invaders-Pygame-master/background.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Space_invaders/Space-Invaders-Pygame-master/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Space_invaders/Space-Invaders-Pygame-master/enemy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Space_invaders/Space-Invaders-Pygame-master/explosion.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Space_invaders/Space-Invaders-Pygame-master/laser.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Space_invaders/Space-Invaders-Pygame-master/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Space_invaders/Space-Invaders-Pygame-master/player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Space_invaders/Space-Invaders-Pygame-master/ufo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Space_invaders/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Space_invaders2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Space_invaders2/.idea/Space_invaders2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Space_invaders2/files/Redemtion.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Space_invaders2/files/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Space_invaders2/files/background.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Space_invaders2/files/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Space_invaders2/files/enemy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Space_invaders2/files/explosion.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Space_invaders2/files/laser.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Space_invaders2/files/player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Space_invaders2/files/ufo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Space_invaders2/functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Space_invaders2/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tkinter/quiz_project_Tkinter_GUI/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../tkinter/quiz_project_Tkinter_GUI/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tkinter/quiz_project_Tkinter_GUI/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../tkinter/quiz_project_Tkinter_GUI/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="27fV84TeHZ56FXXGMIZ91kPyY49" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29ad617b-04b6-4bb9-b219-3d99462be6a8" name="Changes" comment="" />
+      <created>1649710964459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649710964459</updated>
+    </task>
+    <servers />
+  </component>
+</project>
