@@ -1,0 +1,31 @@
+1/ django-admin startproject
+
+then creat the app 
+
+
+2/ python manger.py startapp 'base'
+
+
+then run the server to check everythin is worling 
+
+
+3/ create the url in the main project 
+
+4/ connect the urls
+
+
+5/ let your main project know about the app and connect the urls
+
+
+
+6/ then create the models then 
+
+python mange.py makemigrations
+
+then python manage.py migrate
+
+
+7/ create admin user | python mange.py createsuperuser
+
+
+8/ register the model to the admin panel base admin

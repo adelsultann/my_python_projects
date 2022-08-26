@@ -1,0 +1,100 @@
+   {% extends 'base/main.html' %}
+
+
+   {% block content %}
+
+   <div class="header-bar">
+       <div>
+          {% if user.is_authenticated %}
+   <h1>Welcome Back {{user.username|title}}</h1>
+           <h3 style="margin:0">You have <i>{{incomplete_task}}</i> incomplete task{{incomplete_task|pluralize:'s'}}</h3>
+       </div>
+ <a href="{% url 'logout' %}">Logout</a>
+
+    {% else %}
+<a href="{% url 'register' %}">Signup</a>
+<a href="{% url 'login' %}">Login</a>
+
+  {% endif %}
+
+   </div>
+
+
+
+
+
+<div id="search-add-wrapper">
+    <form method="GET" style="display: flex;">
+        <input type='text' name='q' placeholder="Search your task" value="{{q}}">
+        <input class="button" type="submit" value='Search'>
+    </form>
+
+    <a id="add-link" href="{% url 'task-create' %}">&#x2b;</a>
+
+</div>
+
+
+
+
+<!--    <form method="GET">-->
+<!--     <input name="q" placeholder="Search for posts" value="{{q}}">-->
+<!--        <input type="submit"  value="search">-->
+<!--        </form>-->
+<!--    <br>-->
+<!--<a href="{% url 'task-create' %}">add task</a>-->
+
+
+
+<div id="tasklist" class="task-items-wrapper">
+    {% for task in tasks %}
+     {% if request.user == task.user %}
+    <div class="task-wrapper" data-position="{{task.pk}}">
+        <div class="task-title">
+            {% if task.complete %}
+            <div class="task-complete-icon"></div>
+            <i><s><a href="{% url 'task-update' task.id %}">{{task}}</a></s></i>
+            {% else %}
+            <div class="task-incomplete-icon"></div>
+            <a href="{% url 'task-update' task.id %}">{{task}}</a>
+            {% endif %}
+        </div>
+        <div class="task-controls">
+                            <!--      &#215;    علامه الخطا   -->
+            <a class="delete-link" href="{% url 'task-delete' task.id %}">&#215;</a>
+            <span class="handle">&nbsp;&#10247;</span>
+        </div>
+    </div>
+
+ {% endif %}
+{% endfor %}
+    {% endblock content %}
+
+
+
+
+
+<!--   old style -->
+<!--   -->
+<!--<table>-->
+<!--    <tr>-->
+
+<!--        <th>Items</th>-->
+<!--        <th>View</th>-->
+<!--        <th>edit</th>-->
+<!--    </tr>-->
+<!--    <tr>-->
+
+<!--    {% for task in tasks %}-->
+<!--        {% if request.user == task.user %}-->
+<!--    <td>  {{task.title }} </td>-->
+<!--        <td> <a href="{% url 'task-update' task.id %}">Edit</a></td>-->
+<!--         <td> <a href="{% url 'task-delete' task.id %}">Delete</a></td>-->
+<!--    </tr>-->
+
+
+
+<!--      {% endif %}-->
+<!--     {% endfor %}-->
+<!--</table>-->
+
+
